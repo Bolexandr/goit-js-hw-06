@@ -38,7 +38,7 @@ function createBoxes(amount) {
   let LongHtmlString = '';
   let  sizeValue = 30
   for (let i = 1; i <= amount; i += 1){
-    LongHtmlString += `<divstyle="width:${sizeValue}px; height:${sizeValue}px; background-color:${getRandomHexColor()}"></div>`;
+    LongHtmlString += `<div style="width:${sizeValue}px; height:${sizeValue}px; background-color:${getRandomHexColor()}"></div>`;
     sizeValue += 10
   }
   console.log(divBoxesLink)
