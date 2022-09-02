@@ -27,10 +27,7 @@ const inputLinc = divLinc.querySelector('[type="number"]');
 const createBtn = divLinc.querySelector('[data-create]');
 const remuveBtn = divLinc.querySelector('[data-destroy]');
 
-// console.dir(divLinc)
-// console.dir(inputLinc)
-// console.dir(createBtn)
-// console.dir(remuveBtn)
+
 
 console.dir(divBoxesLink)
 

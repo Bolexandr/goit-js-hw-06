@@ -29,11 +29,11 @@ function changeBorderColor(event) {
       return;
     }
     inptAreaLinc.classList.replace('invalid', 'valid');
-    console.log('inptStringLengthInIf =', inptStringLength);
+    
     return;
   } else {
+     inptAreaLinc.classList.remove('valid');
     inptAreaLinc.classList.add('invalid');
-    console.log('inptStringLength= ', inptStringLength);
   }
   return;
 }
