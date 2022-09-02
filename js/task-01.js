@@ -1,13 +1,14 @@
 ///////////Виконання:
-const ulCategoriesLinc = document.querySelectorAll("#categories") // Посилання на улку через айдішку
+const ulCategoriesLinc = document.querySelector("#categories") // Посилання на улку через айдішку
 ////Перша частина задачі:
+
 // //Рішення А:
 // const subArrItems = ulCategoriesLinc.querySelectorAll(".item") // Створюємо масив лішок з класом ".item"
 // const countElem = subArrItems.length // Рахунок скільки є елементів ітемс
 // console.log(countElem) //  Виводимо в консоль кількість ітемів
 
 //Рішення В:
-console.log('Number of categories:',ulCategoriesLinc.querySelectorAll(".item").length)
+console.log('Number of categories:', ulCategoriesLinc.querySelectorAll(".item").length)
 
 ////Друга частина задачі:
 const subArrItems = ulCategoriesLinc.querySelectorAll(".item") // create Arr of items
